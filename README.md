@@ -23,6 +23,8 @@ Discovered hidden data within Alternate Data Streams (ADS) attached to both file
 Analyzed non-resident file storage, showing how larger files are stored in external disk clusters
 Recovered residual data from file slack, highlighting how remnants of previous data persist beyond file boundaries
 
+---
+
 ### Figure 1: NTFS Image Loaded in FTK Imager
 ![Figure 1](setup.png)
 
