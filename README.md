@@ -1,9 +1,7 @@
 # NTFS-Keyword-Search-Validation-Using-FTK-Imager
 NTFS forensic analysis using FTK Imager to identify artifacts across MFT, $LogFile, ADS, and slack space.
 
-Author: Rasheedah Landrum
 
-Creation Date: 04/23/2026
 
 Project Overview
 
@@ -70,8 +68,16 @@ The keyword 'n-slack' was identified within file slack space, showing how residu
 
 
 
+
+
 Conclusion
 
 This analysis demonstrated that keyword artifacts are distributed across multiple NTFS storage structures, including resident MFT entries, non-resident clusters, alternate data streams, and slack space.
 
 The findings highlight the importance of examining hidden and residual data sources, as critical evidence may exist outside standard file system views.
+
+
+
+Author: Rasheedah Landrum
+
+Creation Date: 04/23/2026
