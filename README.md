@@ -67,7 +67,7 @@ The keyword 'n-alloc' was found in a non-resident file, indicating storage in ex
 The keyword 'n-slack' was identified within file slack space, showing how residual data persists beyond file boundaries.
 
 
-
+---
 
 
 Conclusion
@@ -76,7 +76,7 @@ This analysis demonstrated that keyword artifacts are distributed across multipl
 
 The findings highlight the importance of examining hidden and residual data sources, as critical evidence may exist outside standard file system views.
 
-
+---
 
 Author: Rasheedah Landrum
 
