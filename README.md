@@ -1,6 +1,10 @@
 # NTFS-Keyword-Search-Validation-Using-FTK-Imager
 NTFS forensic analysis using FTK Imager to identify artifacts across MFT, $LogFile, ADS, and slack space.
 
+Author: Rasheedah Landrum
+
+Creation Date: 04/23/2026
+
 Project Overview
 
 This project focuses on performing digital forensic analysis of an NTFS disk image using FTK Imager. The objective was to identify and validate keyword artifacts across multiple NTFS storage structures, including active, deleted, and hidden data locations. The analysis demonstrates how evidence can persist beyond standard file system views and highlights the importance of examining underlying file system components during investigations.
