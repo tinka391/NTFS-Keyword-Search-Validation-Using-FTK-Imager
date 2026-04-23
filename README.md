@@ -18,49 +18,49 @@ Analyzed non-resident file storage, showing how larger files are stored in exter
 Recovered residual data from file slack, highlighting how remnants of previous data persist beyond file boundaries
 
 ### Figure 1: NTFS Image Loaded in FTK Imager
-![Figure 1](screenshots/setup.png)
+![Figure 1](setup.png)
 
 The NTFS image was successfully loaded into FTK Imager, revealing key file system structures including $MFT and $LogFile.
 
 ---
 
 ### Figure 2: Resident Data Identified in $MFT (r-alloc)
-![Figure 2](screenshots/r-alloc.png)
+![Figure 2](r-alloc.png)
 
 The keyword 'r-alloc' was identified within the $MFT, confirming the presence of resident data stored directly within the file record.
 
 ---
 
 ### Figure 3: Deleted Artifact Identified in $LogFile (r-unalloc)
-![Figure 3](screenshots/r-unalloc.png)
+![Figure 3](r-unalloc.png)
 
 The keyword 'r-unalloc' was located within the $LogFile, demonstrating persistence of deleted file activity within NTFS transaction logs.
 
 ---
 
 ### Figure 4: Alternate Data Stream in File (r-fads)
-![Figure 4](screenshots/r-fads.png)
+![Figure 4](r-fads.png)
 
 The keyword 'r-fads' was identified within an alternate data stream attached to a file, highlighting hidden data storage within NTFS.
 
 ---
 
 ### Figure 5: Alternate Data Stream in Directory (r-dads)
-![Figure 5](screenshots/r-dads.png)
+![Figure 5](r-dads.png)
 
 The keyword 'r-dads' was identified within a directory-based alternate data stream, demonstrating a lesser-known method of concealed data storage.
 
 ---
 
 ### Figure 6: Non-Resident File Data (n-alloc)
-![Figure 6](screenshots/n-alloc.png)
+![Figure 6](n-alloc.png)
 
 The keyword 'n-alloc' was found in a non-resident file, indicating storage in external disk clusters rather than the MFT.
 
 ---
 
 ### Figure 7: Residual Data in File Slack (n-slack)
-![Figure 7](screenshots/n-slack.png)
+![Figure 7](n-slack.png)
 
 The keyword 'n-slack' was identified within file slack space, showing how residual data persists beyond file boundaries.
 
